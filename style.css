@@ -112,6 +112,10 @@ border-radius:10px;
 overflow:hidden;
 position:relative;
 transition:0.3s;
+display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* pushes button to bottom */
+
 }
 
 .movie:hover{
@@ -133,16 +137,16 @@ padding:10px;
 
 /* trailer button */
 
-.trailer-btn{
-width:100%;
-padding:10px;
-background:#e50914;
-color:white;
-border:none;
-font-weight:bold;
-cursor:pointer;
+.trailer-btn {
+  width: 100%;
+  padding: 10px;
+  background:#e50914;
+  color:white;
+  border:none;
+  font-weight:bold;
+  cursor:pointer;
+  text-align: center; /* center text */
 }
-
 .trailer-btn:hover{
 background:#ff1e2d;
 }
